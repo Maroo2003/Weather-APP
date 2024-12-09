@@ -1,0 +1,98 @@
+:root{
+    --main-color : rgb(30, 32, 43);
+    --main-font : "Roboto", sans-serif;
+    --style-color : rgb(0, 154, 216);
+    
+}
+.bg-main-color{
+    background-color: var(--main-color) !important;
+}
+.bg-inner-color{
+    background-color: rgb(45, 48, 61) !important;
+}
+.bg-footer-color{
+    background-color: rgb(38, 41, 54);
+}
+.icon-color{
+    color: var(--style-color);
+}
+.trans-border{
+    border:2px solid var(--main-color) !important;
+    border-radius: 60px;
+}
+.main-font{
+    font-family: var(--main-font);
+}
+nav img{
+    width: 70px;
+}
+nav h5{
+    font-size: 10px;
+}
+.navbar-nav .nav-link.active{
+
+    /* width: 100px; */
+    border:2px solid var(--style-color) ;
+    border-radius: 60px;
+    color: var(--style-color) !important;
+}
+nav .nav-item a{
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    border:2px solid var(--style-color) !important;
+    border-radius: 60px;
+    color: var(--style-color) !important;
+}
+main{
+    background-color: var(--main-color);
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+}
+.form-control {
+    border: none !important;
+    color: #fff !important;
+}
+::placeholder {
+    color: rgb(117, 117, 117) !important; /* Change this to your desired color */
+}
+main form button{
+    position: absolute;
+    right: 1%;
+    top: 37%;
+    /* bottom: 50%; */
+}
+footer form button{
+    position: absolute;
+    right: 1%;
+    top: 31%;
+    /* bottom: 50%; */
+}
+.form-control:focus {
+    box-shadow: none !important;
+}
+.card-body1 , .card-body3{
+    background-color: rgb(50, 53, 68);
+}
+main .card-body1 .body-img{
+    width: 100px;
+} .card-body1 h1{
+    font-size: 90px;
+}
+main .card-item span{
+    color: var(--style-color);
+} 
+main .card-body2{
+    background-color: rgb(38, 41, 54);
+}
+.card-body2  span{
+    margin-bottom: 31%;
+}
+.card-body3  span{
+    margin-bottom: 31%;
+}
+footer .icons .icon-item{
+    width: 40px;
+    height: 40px;
+}
